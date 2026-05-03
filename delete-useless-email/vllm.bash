@@ -1,0 +1,2 @@
+# Recommend a40 or higher GPU for best performance, but it can run on 3090/4090 with reduced batch size and speed.
+vllm Qwen/Qwen2.5-32B-Instruct-AWQ --max-model-len 32768 --max-num-batched-tokens 32768 --host 0.0.0.0 --port 8000 --dtype auto --enforce-eager --gpu-memory-utilization 0.95 --enable-auto-tool-choice --tool-call-parser hermes 
