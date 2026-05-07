@@ -1,0 +1,5 @@
+**/.env
+delete-useless-email/email_cache.db
+.venv
+**/__pycache__/
+**/.langgraph_api

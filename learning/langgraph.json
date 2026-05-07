@@ -1,0 +1,7 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+        "agent": "./tool-cep.py:agent2"
+    },
+    "env": ".env" 
+}
